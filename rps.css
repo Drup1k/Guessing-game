@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+.highlighted {
+    box-shadow: 0 0 15px 5px #ffa500;
+    transform: scale(1.1);
+}
+
+#rock, #paper, #scissors {
+    margin-right: 50px;
+    border-radius: 25%;
+    font-size: 75px;
+}
+
+#result {
+    font-size: 50px;
+}
