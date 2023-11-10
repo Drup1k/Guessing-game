@@ -1,4 +1,5 @@
 body {
+    display: flexbox;
     text-align: center;
 }
 
@@ -7,12 +8,22 @@ body {
     transform: scale(1.1);
 }
 
-#rock, #paper, #scissors {
-    margin-right: 50px;
+.choice-button {
+    margin: 50px;
     border-radius: 25%;
     font-size: 75px;
+    background-color: #d32f2f;
 }
 
-#result {
+#result, #computer-choice {
     font-size: 50px;
+}
+
+.com-play {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section {
+    align-self: center;
 }
